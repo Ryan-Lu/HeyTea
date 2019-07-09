@@ -77,8 +77,8 @@ ol,ul{
 }
 
 .banner_bg {
-    /* width: 100%;
-    min-width: 1100px; */
+    width: 100%;
+    min-width: 1100px;
 }
 
 .banner_bg .pc {
@@ -87,4 +87,66 @@ ol,ul{
     background-position: center center;
     /* 背景图片自适应屏幕尺寸 */
     background-size: cover;
+}
+
+.about-con {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-image: url(./ch1.png);
+    background-repeat: no-repeat;
+    background-position: botton center;
+    min-width: 1100px;
+    margin-bottom: 160px;
+}
+
+.a_txt {
+    width: 450px;
+    height: 240px;
+    padding-right: 50px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.title {
+    height: 30px;
+    line-height: 30px;
+    color: #6c6d6c;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.ntFont {
+    font-family: 'NeutraText' !important;
+}
+
+.txt_con {
+    color: #747574;
+    line-height: 30px;
+    text-indent: 24px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.a_btn {
+    position: absolute;
+    left: 50%;
+    bottom: 242px;
+    margin-left: -70px;
+    background: #fff;
+}
+
+.btn {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    width: 80px;
+    color: #ccc;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border: 1px solid #b0b0b0;
 }
