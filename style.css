@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    /* 颜色跟随父节点 */
+    color: inherit;
+    /* 取消下划线 */
+    text-decoration: none;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+.clearfix::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.icon {
+    width: 2em; height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    color: #ffffff;
+ }
+
+.header {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .logo {
+    height: 80px;
+    width: 180px;
+    padding: 0 0 0 145px;
+    float: left;
+    display: inline-block;
+}
+
+.header .logo img {
+    display: block;
+    margin: 27px auto;
+}
+
+.header ul > li {
+    height: 80px;
+    width: 18%;
+    float: left;
+    text-align: center;
+}
+
+.header ul > li > a {
+    padding: 28px 0;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "wenyue";
+    /* float: left; */
+    display: inline-block;
+}
+
+.header ul > li > a:hover {
+    color: #ccc;
+}
+
+.header .ic {
+    padding: 25px 145px 25px 0;
+    font-size: 16px;
+    float: right;
+}
+
+.banner_bg {
+    /* width: 100%;
+    min-width: 1100px; */
+}
+
+.banner_bg .pc {
+    width: 100%;
+    min-width: 1100px;
+    background-position: center center;
+    /* 背景图片自适应屏幕尺寸 */
+    background-size: cover;
+}
